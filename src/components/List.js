@@ -19,7 +19,7 @@ import { List,Avatar,Input,Button } from 'antd';
               <List.Item.Meta
                 avatar={<Avatar onClick={()=>{props.delList(item.id)}} size={50} icon="user" />}
                 title={<a href="https://ant.design">{item.content}</a>}
-                description="这里是具体评论吧！"
+                description="这是对于SourceTree的测试！"
               />
             </List.Item>
           )}

@@ -6,7 +6,6 @@ import { List,Avatar,Input,Button } from 'antd';
       document.title=`you clicked ${count} times`
     })
     const [InputVal,setInputVal]=useState('');
-    const
     return(
       <div>
         <Input onChange={(e)=>{setInputVal(e.target.value)}} placeholder="请输入相应的添加信息"/>

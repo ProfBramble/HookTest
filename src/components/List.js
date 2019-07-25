@@ -3,11 +3,7 @@ import { List,Avatar,Input,Button } from 'antd';
  export default function Lists(props){
     const [count,setCount]=useState(0);
     useEffect(()=>{
-<<<<<<< Updated upstream
-      document.title=`你点击了 ${count} 次`
-=======
       document.title=`${count}为你点击的次数`
->>>>>>> Stashed changes
     })
     const [InputVal,setInputVal]=useState('');
     return(

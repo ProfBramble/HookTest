@@ -8,6 +8,7 @@ import { List,Avatar,Input,Button } from 'antd';
     const [InputVal,setInputVal]=useState('');
     return(
       <div>
+        <h1>'123'</h1>
         <Input onChange={(e)=>{setInputVal(e.target.value)}} placeholder="请输入相应的添加信息"/>
         <Button type="primary" onClick={()=>{setCount(count+1);props.addList(InputVal)}}>提交</Button>
         <hr/>

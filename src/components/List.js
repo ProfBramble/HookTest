@@ -6,7 +6,6 @@ import { List,Avatar,Input,Button } from 'antd';
       document.title=`you clicked ${count} times`
     })
     const [InputVal,setInputVal]=useState('');
-    const
     return(
       <div>
         <Input onChange={(e)=>{setInputVal(e.target.value)}} placeholder="我是紧急任务的修改语句"/>
@@ -20,7 +19,7 @@ import { List,Avatar,Input,Button } from 'antd';
               <List.Item.Meta
                 avatar={<Avatar onClick={()=>{props.delList(item.id)}} size={50} icon="user" />}
                 title={<a href="https://ant.design">{item.content}</a>}
-                description="这里是具体评论"
+                description="这里是具体评论吧！"
               />
             </List.Item>
           )}

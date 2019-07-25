@@ -9,7 +9,7 @@ import { List,Avatar,Input,Button } from 'antd';
     const
     return(
       <div>
-        <Input onChange={(e)=>{setInputVal(e.target.value)}} placeholder="请输入相应的添加信息"/>
+        <Input onChange={(e)=>{setInputVal(e.target.value)}} placeholder="我是紧急任务的修改语句"/>
         <Button type="primary" onClick={()=>{setCount(count+1);props.addList(InputVal)}}>提交</Button>
         <hr/>
         <List

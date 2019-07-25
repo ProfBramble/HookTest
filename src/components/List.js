@@ -10,7 +10,7 @@ import { List,Avatar,Input,Button } from 'antd';
       <div>
         <h1>'123'</h1>
         <Input onChange={(e)=>{setInputVal(e.target.value)}} placeholder="请输入相应的添加信息"/>
-        <Button type="primary" onClick={()=>{setCount(count+1);props.addList(InputVal)}}>提交</Button>
+        <Button type="primary" onClick={()=>{setCount(count+1);props.addList(InputVal)}}>V1.1提交</Button>
         <hr/>
         <List
           itemLayout="horizontal"
@@ -20,7 +20,7 @@ import { List,Avatar,Input,Button } from 'antd';
               <List.Item.Meta
                 avatar={<Avatar onClick={()=>{props.delList(item.id)}} size={50} icon="user" />}
                 title={<a href="https://ant.design">{item.content}</a>}
-                description="这里是具体评论吧！"
+                description="这是对于SourceTree的测试！"
               />
             </List.Item>
           )}
